@@ -25,4 +25,16 @@ contract SampleContract {
         } //Similar as js objects
         
         enum gender {male , female} //Same as enum in mysql
+
+        //we can also define access modifiers with variables - Solidity consider private by default if not defined
+        
+        //public - all can access
+        // Note: when we define public variable, solidity automatically creates the function with the same name 
+
+        //external - Cannot be accessed internally, only externally
+    
+        //internal - only this contract and contracts deriving from it can access
+    
+        //private - can be accessed only from this contract
+        
 }
